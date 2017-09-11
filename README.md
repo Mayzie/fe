@@ -5,6 +5,12 @@ py-postgresql is a Python 3 package providing modules to work with PostgreSQL.
 This includes a high-level driver, and many other tools that support a developer
 working with PostgreSQL databases.
 
+This fork vs original
+------
+
+Forked from `python-postgres/fe` to better support Postgres stored procedures,
+because the original isn't adequately maintained.
+
 Installation
 ------------
 
@@ -15,6 +21,10 @@ Installation *should* be as simple as::
 More information about installation is available via::
 
 	python -m postgresql.documentation.admin
+
+### Using pip
+
+	$ pip3 install git+https://github.com/Mayzie/fe.git
 
 Basic Driver Usage
 ------------------
